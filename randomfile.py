@@ -3,7 +3,7 @@ import random
 import shutil
 import glob
 
-source = input("Enter the source directory: ")
+source = input("Enter the folder directory: ")
 dest = input("Enter the Destination directory: ")
 
 pathchooser = rf'{source}'
