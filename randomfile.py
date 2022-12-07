@@ -17,3 +17,5 @@ randomdir = random.choice(file_path)
 path = rf'{source}\{randomfile}'
 sendpath = rf'{randomdir}/{randomfile}'
 shutil.copy(path, sendpath)
+
+print("Copied file to random directory completed!")
